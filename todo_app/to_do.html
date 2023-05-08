@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/to_do.css">
+
+</head>
+<body>
+    <h1 class="heading"> اپلیکیشن TODO </h1>
+    
+    <div class="to_do">
+        <div class="create_activity">
+            <form class="activity_form">
+                <label for="activity"> ایجاد یادآوری برای انجام کار </label><br>
+                <input class="input create_input" type="text" name="activity" placeholder="کاری برای انجام...."><br>
+                <button class="submit_button" type="submit"> ایجاد </button>
+            </form>
+        </div>
+        <hr>
+
+        <h3> یادآوری ها </h3>
+        <div class="filter_activity">
+            <label for="filter"> فیلتر </label><br>
+            <input placeholder="فیلتر..." class="input filter_input" type="text" name="fiter">
+        </div>
+
+        <div class="activities">
+            <ul class="activities_list">
+                
+            </ul>
+            <button class="submit_button clear_activities" type="submit"> پاک کردن </button>
+        </div>
+    </div>
+
+    <script src="to_do.js"></script>
+</body>
+</html>
