@@ -1,0 +1,155 @@
+@font-face {
+    font-family: myFont;
+    src: url(font/segoesc.ttf);
+}
+
+body{
+    background-color: black;
+    font-family: myFont;
+    color: aliceblue;
+    margin: 0;
+}
+
+.dua_pic{
+    width: 60%;
+    height: 500px;
+    display: block;
+    margin: 70px auto 0 auto;
+    background: rgb(216, 216, 216);
+}
+
+.dua_pic i{
+    color: black;
+    margin: 200px 450px 200px 420px;
+    font-size: 400%;
+}
+
+.triple_a_wrapper{
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+.triple_a{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 130%;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 40px 10px 40px;
+    transition: all .4s;
+
+}
+
+.triple_a:hover{
+    background-color: black;
+    color: white;
+}
+
+.email_wrapper{
+    text-align: center;
+    color: rgb(126, 126, 126);
+    margin: 20px 0 0 0;
+}
+
+.email_wrapper form{
+    margin: 20px 0 0 0;
+}
+
+.email_wrapper form input[type=email]{
+    background-color: black;
+    color: rgb(126, 126, 126);
+    border: 1px solid hotpink;
+    border-radius: 10px;
+    height: 30px;
+    padding: 5px 20px 5px 20px;
+    font-size: 120%;
+}
+
+.email_wrapper form input[type=email]:focus{
+    outline: none;
+}
+
+.email_wrapper form input[type=submit]{
+    background-color: black;
+    color: rgb(126, 126, 126);
+    border: 1px solid hotpink;
+    border-radius: 10px;
+    height: 40px;
+    padding: 5px 20px 5px 20px;
+    font-size: 120%;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.email_wrapper form input[type=submit]:hover{
+    background-color: hotpink;
+    color: black;
+}
+
+.terms_wrapper{
+    margin: 40px 0 0 0;
+}
+
+.terms_wrapper a{
+    text-align: center;
+    color: rgb(126, 126, 126);
+    text-decoration: none;
+}
+
+#terms_doc{
+    text-align: center;
+    max-width: 60%;
+    margin: 20px auto 0 auto;
+    display: none;
+}
+
+#terms_doc:target{
+    display: block;
+}
+
+#terms_doc > a{
+    text-decoration: underline;
+    color: white;
+}
+
+#terms_doc:target{
+    display: block;
+}
+
+.social_media_links a{
+    display: inline-block;
+    color: black;
+    background-color: white;
+    font-size: 250%;
+    text-decoration: none;
+    width: 40px;
+    border-radius: 10px;
+    margin: 30px 10px 0 0;
+}
+
+.social_media_links a:hover{
+    background-color: rgb(242, 242, 85);
+}
+
+.c_r_footer{
+    font-size: 10px;
+    margin: 30px 0 0 0;
+    
+}
+
+.footer_links a{
+    font-size: 12px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 20px 0 20px;
+}
+
+.footer_links a:hover{
+    text-decoration: underline;
+}
